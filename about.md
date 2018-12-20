@@ -1,15 +1,17 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Information
+permalink: /information/
 ---
 
-Some information about you!
+My work applies a geospatial lens to the natural environment, built environment and identity.
 
-### More Information
+My artistic practice is heavily entwined with the research process and driven by data, networks and sound, taking shape through audiovisual works and performances. 
 
-A place to include any other types of information that you'd like to include about yourself.
+Some of the tools I use in my work include spatio-temporal analysis, earth observation, data sonification, acoustic ecology and machine learning along with field based validation.
+
+CV available upon request
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[sean.m.t.chua@gmail.com](mailto:sean.m.t.chua@gmail.com)
