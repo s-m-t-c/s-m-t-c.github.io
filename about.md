@@ -12,6 +12,4 @@ Some of the tools I use in my work include spatio-temporal analysis, earth obser
 
 CV available upon request
 
-### Contact me
-
-[sean.m.t.chua@gmail.com](mailto:sean.m.t.chua@gmail.com)
+Email: [sean.m.t.chua@gmail.com](mailto:sean.m.t.chua@gmail.com)
