@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 ---
 
-My work applies a geospatial lens to the natural environment, built environment and identity with a view to deconstructing boundaries between science and art.
+My work applies a geospatial lens to the natural environment, built environment and identity with an aim of deconstructing boundaries between science and art.
 
 My artistic practice is heavily entwined with the research process and driven by data, networks and sound, taking shape through audiovisual works and performances. 
 
