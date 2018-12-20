@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Information
-permalink: /information/
+title: about
+permalink: /about/
 ---
 
 My work applies a geospatial lens to the natural environment, built environment and identity.
