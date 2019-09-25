@@ -11,3 +11,4 @@ My artistic practice is heavily entwined with the research process and driven by
 Some of the tools I use in my work include spatio-temporal analysis, earth observation, data sonification, acoustic ecology and machine learning along with field based validation.
 
 Email: [sean.m.t.chua[AT]gmail.com](mailto:sean.m.t.chua@gmail.com)
+Github: https://github.com/s-m-t-c
