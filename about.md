@@ -12,4 +12,4 @@ Some of the tools I use in my work include spatio-temporal analysis, earth obser
 
 Email: [sean.m.t.chua[AT]gmail.com](mailto:sean.m.t.chua@gmail.com)
 
-Github: https://github.com/s-m-t-c
+<br>Github: <a href="https://github.com/s-m-t-c">https://github.com/s-m-t-c</a>
