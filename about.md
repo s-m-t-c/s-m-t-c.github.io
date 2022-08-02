@@ -14,4 +14,4 @@ If you wish to collaborate on something or have any questions feel free to reach
 
 Email: [sean.m.t.chua[AT]gmail.com](mailto:sean.m.t.chua@gmail.com)
 
-<br>Github: <a href="https://github.com/s-m-t-c">https://github.com/s-m-t-c</a>
+Github: <a href="https://github.com/s-m-t-c">https://github.com/s-m-t-c</a>
