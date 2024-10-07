@@ -13,17 +13,22 @@ layout: default
   .underline {
     text-decoration: underline; /* Underlines the specific word */
   }
+  /* New style for the dashed line */
+  .dashed-line {
+    border-top: 1px dashed #000; /* Dashed line style */
+    margin: 1rem 0; /* Space around the dashed line */
+  }
 </style>
 
 <div id="main_container" class="container">
   <div id="page" class="page">
 
     <!-- About me Section -->
-    <section id="about" style="margin-bottom: 3rem;">
+    <section id="about" style="margin-bottom: 1rem;"> <!-- Reduced bottom margin -->
       <p>I am a multidisciplinary scientist and artist working across Earth observation and data science with a focus on Earth systems, remote sensing, polar regions, sound, and immersive storytelling.</p>
       <p>Currently working as a researcher at the Nansen Environmental and Remote Sensing Center in Bergen, Norway, an independent consultant, and an artist.</p>
       
-      <p>Some of my research interests:</p>
+      <p>Some of my interests:</p>
       <ul style="list-style-type: disc; margin-left: 2rem;">
         <li>High-resolution sea ice drift tracking using synthetic aperture radar</li>
         <li>Acoustic signaling and behavior of Weddell seals (I think I heard the world's best kickdrum when I dropped a hydrophone into the sea ice at McMurdo Sound)</li>
@@ -33,10 +38,11 @@ layout: default
         <li>Multi-sensor data integration, combining laser altimetry and microwave radiometry, expanding those beautiful detailed pulses to larger areas (but at what cost)</li>
       </ul>
 
-      <p>If you wish to collaborate on something or have any questions, please get in touch.</p>
-      <p><strong><a href="mailto:seanmtchua@gmail.com">Email me</a></strong></p>
+      <p>If you wish to collaborate on something or have any questions, please <a href="mailto:seanmtchua@gmail.com"><span class="underline">get in touch</span></a>.</p>
     </section>
-
+    
+    <div class="dashed-line"></div> <!-- Dashed line added -->
+    
     <!-- Research Section -->
     <h2>Research</h2>
     <ul style="list-style-type:none; padding-left: 0;">
