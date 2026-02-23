@@ -1,0 +1,210 @@
+# Unified content model for homepage entries.
+# section: which homepage block this entry belongs to
+# sort_date: controls ordering within a section
+# featured + featured_rank: reserved for future featured-project layouts
+- id: research-inferring-seasonality
+  section: research
+  year: 2025
+  sort_date: 2025-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://tc.copernicus.org/articles/19/1241/2025/" target="_blank"><span class="underline">Inferring</span></a> the seasonality of sea ice floes in the Weddell Sea using ICESat-2
+
+- id: research-sastrugi-leonardo
+  section: research
+  year: 2025
+  sort_date: 2025-11-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Chua, Sean Minhui Tashi, and Diana Chester. <a href="https://direct.mit.edu/leon/article/58/4/373/131195/Ephemerality-and-Performance-Sastrugi-Sounds-of" target="_blank"><span class="underline">Ephemerality and Performance: Sastrugi: Sounds of Antarctic Sea Ice</span></a>.
+
+- id: research-coastal-sea-ice-thickness
+  section: research
+  year: 2024
+  sort_date: 2024-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Coastal sea ice thickness in Antarctica from airborne measurements
+
+- id: research-open-data-cube-land-cover
+  section: research
+  year: 2022
+  sort_date: 2022-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Operational <a href="https://www.researchgate.net/publication/364533435_Operational_continental-scale_land_cover_mapping_of_Australia_using_the_Open_Data_Cube" target="_blank"><span class="underline">continental-scale</span></a> land cover mapping of Australia using the Open Data Cube
+
+- id: research-living-earth-classification
+  section: research
+  year: 2021
+  sort_date: 2021-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Living Earth : Implementing national standardised land cover <a href="https://www.researchgate.net/publication/353531178_Living_Earth_Implementing_national_standardised_land_cover_classification_systems_for_Earth_Observation_in_support_of_sustainable_development" target="_blank"><span class="underline">classification systems</span></a> for Earth Observation in support of sustainable development
+
+- id: research-cadia-tailings-monitoring
+  section: research
+  year: 2019
+  sort_date: 2019-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://www.researchgate.net/publication/337952308_Leveraging_open-access_remote_sensing_imagery_to_monitor_dam_infrastructure_Case_study_of_the_Cadia_tailings_dam_collapse_Australia" target="_blank"><span class="underline">Leveraging</span></a> open-access remote sensing imagery to monitor dam infrastructure: Case study of the Cadia tailings dam collapse, Australia
+
+- id: research-geochemical-maps
+  section: research
+  year: 2019
+  sort_date: 2019-11-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    A machine learning <a href="https://www.researchgate.net/publication/331949126_A_machine_learning_approach_to_national_scale_predictive_geochemical_maps" target="_blank"><span class="underline">approach</span></a> to national scale predictive geochemical maps
+
+- id: research-cambodia-drought
+  section: research
+  year: 2018
+  sort_date: 2018-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Drought <a href="https://www.researchgate.net/publication/368541657_Drought_monitoring_in_Cambodia" target="_blank"><span class="underline">Monitoring</span></a> in Cambodia
+
+- id: research-hmm-himalayan-snow
+  section: research
+  year: 2016
+  sort_date: 2016-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://www.mssanz.org.au/modsim2017/H9/chua.pdf" target="_blank"><span class="underline">Interpreting</span></a> transition and emission probabilities from a Hidden Markov Model of remotely sensed snow cover in a Himalayan Basin
+
+- id: art-cryosonic-bek
+  section: art_sound
+  year: 2025
+  sort_date: 2025-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    CRYOSONIC: Lecture performance on the sonic aesthetics and acoustic ecology of the frozen world for <a href="https://bek.no/en/bek-opening-week-bek-samples-with-sean-minhui-tashi-chua/" target="_blank"><span class="underline">Bergen Senter for Elektronisk Kunst</span></a>
+
+- id: art-sound-movement-workshop
+  section: art_sound
+  year: 2025
+  sort_date: 2025-11-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    SOUND AND MOVEMENT WORKSHOP: Hands-on children’s workshop at BEK for <a href="https://www.borealisfestival.no/en/events2025/familiedag-pa-bek/" target="_blank"><span class="underline">Borealis Festival</span></a>, using custom instruments to translate movement into sound.
+
+- id: art-wind-warper-proverommet
+  section: art_sound
+  year: 2024
+  sort_date: 2024-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Wind Warper v1.0: Live performance with dancer Ronja Fismen Michelsen for <a href="https://bit-teatergarasjen.no/program/proverommet-pa-ostre/" target="_blank"><span class="underline">Prøverommet</span></a>
+
+- id: art-rendah-interview
+  section: art_sound
+  year: 2024
+  sort_date: 2024-11-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://rendahmag.com/article/sean-minhui-tashi-chua" target="_blank"><span class="underline">Interview</span></a> with Daniel Aagentah for Rendah Magazine
+
+- id: art-ekko-bek-performance
+  section: art_sound
+  year: 2024
+  sort_date: 2024-10-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Live ensemble <a href="https://bek.no/langvarig-performance-fell-treanor/" target="_blank"><span class="underline">performance</span></a> - EKKO x BEK at Den Uferdige Institusjon
+
+- id: art-sastrugi-rawspace
+  section: art_sound
+  year: 2024
+  sort_date: 2024-09-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://www.theatreroyal.com.au/shows/sastrugi-sounds-antarctic-sea-ice" target="_blank"><span class="underline">Sastrugi</span></a> - with Diana Chester and Bea Harrison-Day as part of Rawspace at the Theatre Royal and Museum for Old and New Art
+
+- id: art-mona-foma-book-club
+  section: art_sound
+  year: 2023
+  sort_date: 2023-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    MONA FOMA <a href="https://www.theatreroyal.com.au/shows/sastrugi-sounds-antarctic-sea-ice" target="_blank"><span class="underline">Book</span></a> club performance - Commissioned marine science DJ set.
+
+- id: art-geoscience-guidelines
+  section: art_sound
+  year: 2020
+  sort_date: 2020-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    Developed <a href="https://www.geoscience.gov.au/" target="_blank"><span class="underline">Geoscience</span></a> Australia Artist interaction guidelines and residency program.
+
+- id: art-faang-ultravirus
+  section: art_sound
+  year: 2020
+  sort_date: 2020-11-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    How to ace your FAANG <a href="https://soundcloud.com/s-m-t-c/big-data-ultravirus-sideway" target="_blank"><span class="underline">interview</span></a> - <a href="https://ultravirus.bandcamp.com/" target="_blank">Live recording</a> for Ultravirus
+
+- id: art-hearing-data-workshop
+  section: art_sound
+  year: 2019
+  sort_date: 2019-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://github.com/s-m-t-c/sound_school_workshop/" target="_blank"><span class="underline">Hearing</span></a> Data workshop for <a href="https://www.melbournesoundschool.org/" target="_blank">Melbourne Sound School</a>
+
+- id: art-emusic-collaboration
+  section: art_sound
+  year: 2019
+  sort_date: 2019-11-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://www.tandfonline.com/doi/full/10.1080/14432471.2019.1696270" target="_blank"><span class="underline">Emusic</span></a> - Geophysics composition and performance collaboration
+
+- id: art-taxx-skylab-interview
+  section: art_sound
+  year: 2019
+  sort_date: 2019-10-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://soundcloud.com/taxxtaxxtaxx/episode-04-a?in=taxxtaxxtaxx/sets/taxx-on-skylab-radio" target="_blank"><span class="underline">Interview</span></a> on Skylab radio show Taxx - An Eye for A.I.
+
+- id: art-hydroanthropocene
+  section: art_sound
+  year: 2019
+  sort_date: 2019-09-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://drive.google.com/uc?export=view&id=1Ed1ZvkmLaTF4BE4gSBKvrIDpcn-oZ0SS" target="_blank"><span class="underline">HydroAnthropocene</span></a> - AD Space X Tributary Projects Gallery swap
+
+- id: art-orbit-mix
+  section: art_sound
+  year: 2018
+  sort_date: 2018-12-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://soundcloud.com/orbit0o0/orbit-mix-04-baobing" target="_blank"><span class="underline">Mix</span></a> for Orbit

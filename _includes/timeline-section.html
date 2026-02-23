@@ -1,9 +1,16 @@
 <section class="timeline-section">
   <h2>{{ include.heading }}</h2>
+  {% assign section_items = site.data.projects | where: "section", include.section_key %}
+  {% if include.sort_by %}
+    {% assign section_items = section_items | sort: include.sort_by %}
+  {% endif %}
+  {% if include.sort_direction == "desc" %}
+    {% assign section_items = section_items | reverse %}
+  {% endif %}
   <ul class="timeline-list">
-    {% for entry in include.items %}
+    {% for entry in section_items %}
       <li class="timeline-item">
-        <p>{{ entry.description }}<br><span class="timeline-year">{{ entry.year }}</span></p>
+        <p>{{ entry.content_html | default: entry.description }}<br><span class="timeline-year">{{ entry.year }}</span></p>
       </li>
     {% endfor %}
   </ul>

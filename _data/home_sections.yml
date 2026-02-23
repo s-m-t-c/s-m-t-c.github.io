@@ -1,0 +1,10 @@
+# Homepage section order and sorting rules.
+- key: research
+  heading: Selected research
+  sort_by: sort_date
+  sort_direction: desc
+
+- key: art_sound
+  heading: Art and Sound
+  sort_by: sort_date
+  sort_direction: desc

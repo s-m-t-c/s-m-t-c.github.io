@@ -23,8 +23,9 @@ layout: default
     
     <div class="dashed-line"></div>
     
-    {% include timeline-section.html heading="Selected research" items=site.data.research %}
-    {% include timeline-section.html heading="Art and Sound" items=site.data.art_sound %}
+    {% for section in site.data.home_sections %}
+      {% include timeline-section.html heading=section.heading section_key=section.key sort_by=section.sort_by sort_direction=section.sort_direction %}
+    {% endfor %}
     
   </div>
 </div>
