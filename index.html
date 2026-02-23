@@ -2,39 +2,14 @@
 layout: default
 ---
 
-<style>
-  body {
-    font-family: 'New York', serif; /* Applies the New York font */
-  }
-  a {
-    text-decoration: none; /* Removes underline from all links */
-    color: black; /* Sets the link color to black */
-  }
-  .underline {
-    text-decoration: underline; /* Underlines the specific word */
-  }
-  /* New style for the dashed line */
-  .dashed-line {
-    border-top: 1px dashed #000; /* Dashed line style */
-    margin: 1rem 0; /* Space around the dashed line */
-  }
-  .timeline-list {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  .timeline-year {
-    color: gray;
-  }
-</style>
-
 <div id="main_container" class="container">
   <div id="page" class="page">
 
     <!-- About me Section -->
-    <section id="about" style="margin-bottom: 1rem;"> <!-- Reduced bottom margin -->
+    <section id="about">
       <p>I am a multidisciplinary scientist and artist working across remote sensing and data science with a focus on Earth systems, polar regions, and sound. Currently, I work as a researcher at the Nansen Environmental and Remote Sensing Center in Norway, as well as being an independent consultant and an artist. Previously I was an assistant director in the Australian Antarctic Division Sea Ice team.</p>      
       <p>Some of my interests:</p>
-      <ul style="list-style-type: disc; margin-left: 0rem;"> <!-- Reduced indent -->
+      <ul>
         <li>High-resolution sea ice drift tracking using synthetic aperture radar</li>
         <li>Acoustic signaling and behavior of Weddell seals (I think I heard the world's best kickdrum when I dropped a hydrophone into the sea ice at McMurdo Sound)</li>
         <li>Bridging the dark space between modelers and observationalists</li>
@@ -46,7 +21,7 @@ layout: default
       <p>If you wish to collaborate on something or have any questions, please <a href="mailto:seanmtchua@gmail.com"><span class="underline">get in touch</span></a>.</p>
     </section>
     
-    <div class="dashed-line"></div> <!-- Dashed line added -->
+    <div class="dashed-line"></div>
     
     {% include timeline-section.html heading="Selected research" items=site.data.research %}
     {% include timeline-section.html heading="Art and Sound" items=site.data.art_sound %}

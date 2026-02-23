@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Keep gems local to the repo for reproducible previews.
+export BUNDLE_PATH="${BUNDLE_PATH:-vendor/bundle}"
+
+bundle check || bundle install
+exec bundle exec jekyll serve --incremental --host 127.0.0.1 --port 4000

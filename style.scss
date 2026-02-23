@@ -19,24 +19,31 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: 19px/1.62 $readingSerif;
+  color: $darkerGray;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  @include mobile {
+    font-size: 18px;
+    line-height: 1.58;
+  }
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 760px;
+  padding: 0 16px;
   width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $uiSans;
   color: $darkerGray;
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  line-height: 1.4;
+  margin: 1.25em 0 0.6em;
   padding: 0;
 
   @include mobile {
@@ -65,20 +72,28 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 0 0 1rem;
 }
 
 a {
-  color: black;
-  text-decoration: none;
-	cursor: pointer;
+  color: $darkerGray;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.45);
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.14em;
+  cursor: pointer;
   &:hover, &:active {
     color: $blue;
+    text-decoration-color: currentColor;
   }
 }
 
+a:visited {
+  color: #3f4f89;
+}
+
 ul, ol {
-  margin: 15px 0;
+  margin: 0.75rem 0 1rem;
   padding-left: 30px;
 }
 
@@ -151,7 +166,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 42px;
 }
 
 .masthead {
@@ -168,6 +183,7 @@ img {
   width: 70px;
   height: 70px;
   margin-right: 15px;
+  text-decoration: none;
 
   @include mobile {
     float: none;
@@ -194,10 +210,14 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $uiSans;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .site-description {
@@ -213,7 +233,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $uiSans;
   font-size: 18px;
 
   @include mobile {
@@ -226,6 +246,7 @@ nav {
   a {
     margin-left: 20px;
     color: $darkGray;
+    text-decoration: none;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -234,6 +255,91 @@ nav {
       margin: 0 10px;
       color: $blue;
     }
+  }
+}
+
+.underline {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.14em;
+}
+
+.dashed-line {
+  border-top: 1px dashed $darkGray;
+  margin: 1.1rem 0 1.25rem;
+}
+
+#about {
+  margin-bottom: 1rem;
+}
+
+#about ul {
+  list-style-type: disc;
+  margin-left: 0;
+  padding-left: 1.25rem;
+}
+
+.timeline-section {
+  margin-bottom: 1.5rem;
+}
+
+.timeline-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.timeline-item {
+  margin: 0 0 0.9rem;
+}
+
+.timeline-item p {
+  margin: 0;
+}
+
+.timeline-year {
+  color: $gray;
+  font-size: 0.94rem;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 0 14px;
+  }
+
+  body {
+    font-size: 17px;
+    line-height: 1.62;
+  }
+
+  h2 {
+    font-size: 22px;
+    line-height: 1.35;
+  }
+
+  p {
+    margin-bottom: 0.92rem;
+  }
+
+  .timeline-item {
+    margin-bottom: 1.05rem;
+  }
+
+  .site-description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    padding: 0 12px;
+  }
+
+  body {
+    font-size: 16.5px;
+  }
+
+  .site-name {
+    font-size: 25px;
   }
 }
 
