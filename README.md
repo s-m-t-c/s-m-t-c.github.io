@@ -1,5 +1,9 @@
 This is my personal website.
 
+## Internal docs
+
+- See `docs/documentation.md` for architecture notes, design language, and roadmap.
+
 ## Local preview
 
 1. Install Ruby + Bundler.
