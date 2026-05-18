@@ -18,7 +18,16 @@
   featured: false
   featured_rank:
   content_html: >-
-    Chua, Sean Minhui Tashi, and Diana Chester. <a href="https://direct.mit.edu/leon/article/58/4/373/131195/Ephemerality-and-Performance-Sastrugi-Sounds-of" target="_blank"><span class="underline">Ephemerality and Performance: Sastrugi: Sounds of Antarctic Sea Ice</span></a>.
+    <a href="https://direct.mit.edu/leon/article/58/4/373/131195/Ephemerality-and-Performance-Sastrugi-Sounds-of" target="_blank"><span class="underline">Ephemerality and Performance: Sastrugi: Sounds of Antarctic Sea Ice</span></a>.
+
+- id: research-antarctic-summer-sea-ice-extremes
+  section: research
+  year: 2025
+  sort_date: 2025-07-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://www.researchgate.net/publication/393257384_Impacts_of_Antarctic_summer_sea-ice_extremes" target="_blank"><span class="underline">Impacts</span></a> of Antarctic summer sea-ice extremes
 
 - id: research-coastal-sea-ice-thickness
   section: research
@@ -82,6 +91,15 @@
   featured_rank:
   content_html: >-
     <a href="https://www.mssanz.org.au/modsim2017/H9/chua.pdf" target="_blank"><span class="underline">Interpreting</span></a> transition and emission probabilities from a Hidden Markov Model of remotely sensed snow cover in a Himalayan Basin
+
+- id: art-signal-drift-lydgalleriet
+  section: art_sound
+  year: 2026
+  sort_date: 2026-05-09
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://www.lydgalleriet.no/archive/signal-drift-transmission-ice-and-the-sonics-of-movement" target="_blank"><span class="underline">Signal Drift</span></a>: Sonic cartographies of the Arctic. A sound installation developed and exhibited at Lydgalleriet with Diana Chester.
 
 - id: art-cryosonic-bek
   section: art_sound
