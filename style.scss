@@ -295,10 +295,13 @@ nav {
 
 .home-media {
   margin: 0 0 1.25rem;
+}
+
+.home-video-frame {
   overflow: hidden;
 }
 
-.home-media video {
+.home-video-frame video {
   aspect-ratio: 16 / 7;
   background: $black;
   display: block;
@@ -312,11 +315,12 @@ nav {
 }
 
 .media-credit {
-  color: $gray;
+  color: $darkGray;
   font-family: $uiSans;
   font-size: 10px;
   line-height: 1.2;
-  margin: 0.25rem 0 0;
+  margin: 0.35rem 0 0;
+  opacity: 0.72;
   text-align: right;
 }
 
@@ -400,7 +404,7 @@ nav {
     margin-bottom: 1rem;
   }
 
-  .home-media video {
+  .home-video-frame video {
     aspect-ratio: 16 / 8.5;
     max-height: none;
   }
