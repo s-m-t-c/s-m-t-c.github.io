@@ -30,9 +30,10 @@ BUNDLE_PATH=vendor/bundle bundle check || BUNDLE_PATH=vendor/bundle bundle insta
 BUNDLE_PATH=vendor/bundle bundle exec jekyll build
 ```
 
-## Homepage data model
+## Works data model
 
-- Section config lives in `_data/home_sections.yml` (order, headings, sort rules).
+- Legacy section config lives in `_data/home_sections.yml` (order, headings, sort rules).
 - All timeline entries live in `_data/projects.yml`.
+- The homepage is intentionally short; `/works/` renders the full chronological index.
 - Each entry has: `section`, `sort_date`, `year`, and `content_html`.
 - `featured` and `featured_rank` are included for future featured-project layouts.

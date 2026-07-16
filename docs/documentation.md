@@ -21,12 +21,13 @@ Design references discussed for direction:
 Stack:
 - Jekyll (static generation)
 - Sass (`style.scss` + `_sass/*`)
-- Data-driven homepage content from YAML
+- Data-driven Works index from YAML
 
 Core files:
 - `/Users/seachu/Documents/s-m-t-c.github.io/index.html`:
-  - Renders About section.
-  - Iterates section definitions from `_data/home_sections.yml`.
+  - Renders the About section.
+- `/Users/seachu/Documents/s-m-t-c.github.io/works.html`:
+  - Renders the full reverse-chronological index from `_data/projects.yml`.
 - `/Users/seachu/Documents/s-m-t-c.github.io/_includes/timeline-section.html`:
   - Filters entries by section key.
   - Sorts by configured field and direction.
@@ -36,7 +37,7 @@ Core files:
 - `/Users/seachu/Documents/s-m-t-c.github.io/_data/projects.yml`:
   - Single source of truth for research/art timeline entries.
 - `/Users/seachu/Documents/s-m-t-c.github.io/_includes/about_intro.html`:
-  - Canonical short bio used by both homepage and about page.
+  - Canonical short bio used by the homepage.
 
 ## 3) Content Data Model
 
@@ -47,7 +48,7 @@ Each project entry in `_data/projects.yml` currently uses:
 - `sort_date`: machine-sortable date key for ordering.
 - `featured`: boolean flag for Featured curation.
 - `featured_rank`: manual ordering key for Featured entries.
-- `content_html`: inline HTML content rendered on homepage.
+- `content_html`: inline HTML content rendered in archive views.
 
 Rationale:
 - A single list supports multiple views (chronological timeline, curated featured set, and future project pages).

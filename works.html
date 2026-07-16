@@ -1,0 +1,20 @@
+---
+layout: page
+title: Works
+permalink: /works/
+---
+
+{% assign works = site.data.projects | sort: "sort_date" | reverse %}
+<ol class="works-list">
+  {% for entry in works %}
+    <li class="work-item" id="{{ entry.id }}">
+      <div class="work-meta">
+        <span class="work-year">{{ entry.year }}</span>
+      </div>
+
+      <div class="work-copy">
+        <p>{{ entry.content_html | default: entry.description }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ol>

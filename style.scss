@@ -32,7 +32,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 760px;
+  max-width: 1040px;
   padding: 0 16px;
   width: 100%;
 }
@@ -178,10 +178,15 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  align-items: flex-end;
+  padding: 18px 0 5px;
   border-bottom: 1px solid $lightGray;
+  display: flex;
+  justify-content: space-between;
 
   @include mobile {
+    align-items: center;
+    display: block;
     text-align: center;
   }
 }
@@ -205,10 +210,7 @@ img {
 }
 
 .site-info {
-  float: left;
-
   @include mobile {
-    float: none;
     display: block;
     margin: 0 auto;
   }
@@ -221,9 +223,11 @@ img {
   font-family: $uiSans;
   font-weight: 300;
   font-size: 28px;
+  line-height: 1;
   letter-spacing: 1px;
 
   a {
+    color: inherit;
     text-decoration: none;
   }
 }
@@ -239,13 +243,11 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
   font-family: $uiSans;
   font-size: 18px;
+  line-height: 1;
 
   @include mobile {
-    float: none;
     margin-top: 9px;
     display: block;
     font-size: 16px;
@@ -285,6 +287,63 @@ nav {
   list-style-type: disc;
   margin-left: 0;
   padding-left: 1.25rem;
+}
+
+.home-hero {
+  margin-bottom: 1rem;
+}
+
+.home-media {
+  margin: 0 0 1.25rem;
+}
+
+.home-media video {
+  aspect-ratio: 16 / 7;
+  background: $black;
+  display: block;
+  height: 100%;
+  max-height: 390px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.media-credit {
+  color: $gray;
+  font-family: $uiSans;
+  font-size: 10px;
+  line-height: 1.2;
+  margin: 0.25rem 0 0;
+  text-align: right;
+}
+
+.works-list {
+  list-style: none;
+  margin: 0.4rem 0 0;
+  padding-left: 0;
+}
+
+.work-item {
+  align-items: start;
+  display: grid;
+  column-gap: 0.7rem;
+  grid-template-columns: 3rem minmax(0, 1fr);
+  padding: 0.16rem 0;
+}
+
+.work-meta {
+  color: $gray;
+  font: inherit;
+  font-variant-numeric: tabular-nums;
+  line-height: inherit;
+}
+
+.work-year {
+  display: block;
+}
+
+.work-copy p {
+  margin-bottom: 0;
 }
 
 .timeline-section {
@@ -336,6 +395,25 @@ nav {
 
   .timeline-item {
     margin-bottom: 1.05rem;
+  }
+
+  .home-media {
+    margin-bottom: 1rem;
+  }
+
+  .home-media video {
+    aspect-ratio: 16 / 8.5;
+    max-height: none;
+  }
+
+  .work-item {
+    column-gap: 0.55rem;
+    grid-template-columns: 2.8rem minmax(0, 1fr);
+    padding: 0.24rem 0;
+  }
+
+  .work-meta {
+    font-size: inherit;
   }
 
   .site-description {
