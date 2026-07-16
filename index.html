@@ -6,28 +6,27 @@ layout: default
   <div id="page" class="page">
 
     <section id="about" class="home-hero">
-      <div class="home-media">
-        <div class="home-video-frame">
-          <video autoplay muted loop playsinline preload="metadata" poster="{{ site.baseurl }}/assets/media/pgonice-poster.jpg" aria-label="Antarctic fieldwork video">
-            <source src="{{ site.baseurl }}/assets/media/pgonice.mp4" type="video/mp4">
-          </video>
-        </div>
-        <p class="media-credit">Video: Ruckus Media</p>
-      </div>
-
       <div class="home-copy">
-        {% include about_intro.html %}
-        <p>Some of my interests:</p>
-        <ul>
-          <li>High-resolution sea ice drift tracking using synthetic aperture radar</li>
-          <li>Acoustic signaling and behavior of Weddell seals (I think I heard the world's best kickdrum when I dropped a hydrophone into the sea ice at McMurdo Sound)</li>
-          <li>Bridging the dark space between modelers and observationalists</li>
-          <li>The "user experience" of interacting with spatial information</li>
-          <li>Hybrid music composition techniques drawing from graphic scores, sonification and ~vibe</li>
-          <li>Multi-sensor data integration, combining laser altimetry and microwave radiometry, expanding those beautiful detailed pulses to larger areas</li>
-        </ul>
+        <div class="home-copy-grid">
+          <div class="home-text-main">
+            {% include about_intro.html %}
+            <p>Some of my interests:</p>
+            <ul>
+              <li>High-resolution sea ice drift tracking using synthetic aperture radar</li>
+              <li>Acoustic signaling and behavior of Weddell seals (I think I heard the world's best kickdrum when I dropped a hydrophone into the sea ice at McMurdo Sound)</li>
+              <li>Bridging the dark space between modelers and observationalists</li>
+              <li>The "user experience" of interacting with spatial information</li>
+              <li>Hybrid music composition techniques drawing from graphic scores, sonification and ~vibe</li>
+              <li>Multi-sensor data integration, combining laser altimetry and microwave radiometry, expanding those beautiful detailed pulses to larger areas</li>
+            </ul>
+          </div>
 
-        <p>If you wish to collaborate on something or have any questions, please <a href="mailto:sean.m.t.chua@gmail.com"><span class="underline">get in touch</span></a>.</p>
+          <figure class="home-cutout">
+            <img src="{{ site.baseurl }}/images/smtc-cutout.png" alt="Sean Chua cutout">
+          </figure>
+        </div>
+
+        <p class="home-contact">If you wish to collaborate on something or have any questions, please <a href="mailto:sean.m.t.chua@gmail.com"><span class="underline">get in touch</span></a>.</p>
       </div>
     </section>
     

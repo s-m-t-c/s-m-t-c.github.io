@@ -4,6 +4,19 @@ layout: default
 
 <article class="page">
 
+  {% if page.hero_video %}
+    <div class="page-media">
+      <div class="home-video-frame">
+        <video autoplay muted loop playsinline preload="metadata" poster="{{ site.baseurl }}{{ page.hero_video_poster }}" aria-label="{{ page.hero_video_label }}">
+          <source src="{{ site.baseurl }}{{ page.hero_video_src }}" type="video/mp4">
+        </video>
+      </div>
+      {% if page.hero_video_credit %}
+        <p class="media-credit">{{ page.hero_video_credit }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
