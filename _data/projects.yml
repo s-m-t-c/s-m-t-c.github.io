@@ -2,6 +2,24 @@
 # section: which homepage block this entry belongs to
 # sort_date: controls ordering within a section
 # featured + featured_rank: reserved for future featured-project layouts
+- id: research-sounding-antarctica-sea-ice-record
+  section: research
+  year: 2026
+  sort_date: 2026-03-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://doi.org/10.1525/res.2026.7.1.102" target="_blank"><span class="underline">Sounding Antarctica: The Sea-Ice Record</span></a>, Resonance: The Journal of Sound and Culture
+
+- id: research-limosat
+  section: research
+  year: 2026
+  sort_date: 2026-01-01
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://doi.org/10.2139/ssrn.6504082" target="_blank"><span class="underline">LiMOSAT: A system for deriving Lagrangian sea-ice motion from satellite data</span></a>
+
 - id: research-inferring-seasonality
   section: research
   year: 2025
@@ -100,6 +118,15 @@
   featured_rank:
   content_html: >-
     <a href="https://www.lydgalleriet.no/archive/signal-drift-transmission-ice-and-the-sonics-of-movement" target="_blank"><span class="underline">Signal Drift</span></a>: Sonic cartographies of the Arctic. A sound installation developed and exhibited at Lydgalleriet with Diana Chester.
+
+- id: art-lsf-big-data-bcr
+  section: art_sound
+  year: 2026
+  sort_date: 2026-01-25
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://www.youtube.com/watch?v=rV8IBKv5OGI" target="_blank"><span class="underline">L$F & BIG DATA presents 辣刨冰</span></a> - Bangkok Community Radio
 
 - id: art-cryosonic-bek
   section: art_sound
