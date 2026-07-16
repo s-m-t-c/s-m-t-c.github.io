@@ -295,6 +295,7 @@ nav {
 
 .home-media {
   margin: 0 0 1.25rem;
+  overflow: hidden;
 }
 
 .home-media video {
@@ -305,6 +306,8 @@ nav {
   max-height: 390px;
   object-fit: cover;
   object-position: center;
+  transform: scale(1.12);
+  transform-origin: center;
   width: 100%;
 }
 
@@ -324,25 +327,18 @@ nav {
 }
 
 .work-item {
-  align-items: start;
-  display: grid;
-  column-gap: 0.7rem;
-  grid-template-columns: 3rem minmax(0, 1fr);
+  display: block;
   padding: 0.16rem 0;
 }
 
-.work-meta {
-  color: $gray;
-  font: inherit;
-  font-variant-numeric: tabular-nums;
-  line-height: inherit;
-}
-
 .work-year {
-  display: block;
+  color: $gray;
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.72rem;
 }
 
-.work-copy p {
+.work-item p {
   margin-bottom: 0;
 }
 
@@ -407,13 +403,11 @@ nav {
   }
 
   .work-item {
-    column-gap: 0.55rem;
-    grid-template-columns: 2.8rem minmax(0, 1fr);
     padding: 0.24rem 0;
   }
 
-  .work-meta {
-    font-size: inherit;
+  .work-year {
+    margin-right: 0.55rem;
   }
 
   .site-description {
