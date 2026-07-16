@@ -14,7 +14,7 @@
 - id: research-limosat
   section: research
   year: 2026
-  sort_date: 2026-01-01
+  sort_date: 2026-04-01
   featured: false
   featured_rank:
   content_html: >-
@@ -122,7 +122,7 @@
 - id: art-lsf-big-data-bcr
   section: art_sound
   year: 2026
-  sort_date: 2026-01-25
+  sort_date: 2026-02-04
   featured: false
   featured_rank:
   content_html: >-
