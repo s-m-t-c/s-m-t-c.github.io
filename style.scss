@@ -327,18 +327,21 @@ nav {
 }
 
 .work-item {
-  display: block;
+  align-items: start;
+  column-gap: 0.7rem;
+  display: grid;
+  grid-template-columns: 2.85rem minmax(0, 1fr);
   padding: 0.16rem 0;
 }
 
 .work-year {
   color: $gray;
-  display: inline-block;
+  display: block;
   font-variant-numeric: tabular-nums;
-  margin-right: 0.72rem;
+  line-height: inherit;
 }
 
-.work-item p {
+.work-copy {
   margin-bottom: 0;
 }
 
@@ -403,11 +406,13 @@ nav {
   }
 
   .work-item {
+    column-gap: 0.55rem;
+    grid-template-columns: 2.7rem minmax(0, 1fr);
     padding: 0.24rem 0;
   }
 
-  .work-year {
-    margin-right: 0.55rem;
+  .work-copy {
+    margin-bottom: 0;
   }
 
   .site-description {

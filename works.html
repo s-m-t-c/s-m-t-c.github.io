@@ -8,7 +8,8 @@ permalink: /works/
 <ol class="works-list">
   {% for entry in works %}
     <li class="work-item" id="{{ entry.id }}">
-      <p><span class="work-year">{{ entry.year }}</span> {{ entry.content_html | default: entry.description }}</p>
+      <span class="work-year">{{ entry.year }}</span>
+      <p class="work-copy">{{ entry.content_html | default: entry.description }}</p>
     </li>
   {% endfor %}
 </ol>
