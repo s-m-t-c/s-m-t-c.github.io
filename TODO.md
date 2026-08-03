@@ -24,7 +24,7 @@ Create a focused research project page for LiMOSAT and sea-ice drift work.
 
 Relevant work and link:
 
-- LiMOSAT: A system for deriving Lagrangian sea-ice motion from satellite data, 2026: https://doi.org/10.2139/ssrn.6504082
+- LiMOSAT: a system for deriving Lagrangian sea-ice motion from satellite data, International Journal of Remote Sensing, 2026: https://www.tandfonline.com/doi/full/10.1080/01431161.2026.2709704
 
 Design notes:
 

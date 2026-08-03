@@ -2,6 +2,15 @@
 # section: which homepage block this entry belongs to
 # sort_date: controls ordering within a section
 # featured + featured_rank: reserved for future featured-project layouts
+- id: research-nextsim-v2
+  section: research
+  year: 2026
+  sort_date: 2026-07-17
+  featured: false
+  featured_rank:
+  content_html: >-
+    <a href="https://gmd.copernicus.org/articles/19/6467/2026/" target="_blank"><span class="underline">The next generation sea-ice model neXtSIM, version 2</span></a>, Geoscientific Model Development
+
 - id: research-sounding-antarctica-sea-ice-record
   section: research
   year: 2026
@@ -14,11 +23,11 @@
 - id: research-limosat
   section: research
   year: 2026
-  sort_date: 2026-04-01
+  sort_date: 2026-08-03
   featured: false
   featured_rank:
   content_html: >-
-    <a href="https://doi.org/10.2139/ssrn.6504082" target="_blank"><span class="underline">LiMOSAT: A system for deriving Lagrangian sea-ice motion from satellite data</span></a>
+    <a href="https://www.tandfonline.com/doi/full/10.1080/01431161.2026.2709704" target="_blank"><span class="underline">LiMOSAT: a system for deriving Lagrangian sea-ice motion from satellite data</span></a>, International Journal of Remote Sensing
 
 - id: research-inferring-seasonality
   section: research
