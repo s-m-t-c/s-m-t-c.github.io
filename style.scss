@@ -386,6 +386,35 @@ nav {
 
 .work-copy {
   margin-bottom: 0;
+  position: relative;
+}
+
+.work-copy p {
+  margin-bottom: 0;
+}
+
+.work-preview {
+  border: 1px solid $gray;
+  bottom: calc(100% + 0.45rem);
+  box-shadow: 0 0.35rem 1rem rgba($black, 0.22);
+  left: 0;
+  max-width: min(640px, calc(100vw - 2rem));
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(0.2rem);
+  transition: opacity 120ms ease, transform 120ms ease;
+  visibility: hidden;
+  width: 640px;
+  z-index: 1;
+}
+
+.work-item--has-preview:hover .work-preview,
+.work-item--has-preview:focus .work-preview,
+.work-item--has-preview:focus-within .work-preview {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .timeline-section {

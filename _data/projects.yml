@@ -218,6 +218,17 @@
   content_html: >-
     How to ace your FAANG <a href="https://soundcloud.com/s-m-t-c/big-data-ultravirus-sideway" target="_blank"><span class="underline">interview</span></a> - live at Sideway for <a href="https://ultravirus.bandcamp.com/" target="_blank"><span class="underline">Ultravirus</span></a>
 
+- id: art-playboi-carti-lyric-simulator
+  section: art_sound
+  year: 2020
+  sort_date: 2020-04-16
+  featured: false
+  featured_rank:
+  hover_image: /assets/media/playboi-carti-lyric-simulator-training-output.png
+  hover_image_alt: Terminal output from the Playboi Carti Lyric Simulator training run.
+  content_html: >-
+    Playboi Carti Lyric Simulator - early-stopped and under-fitted Recurrent Neural Network
+
 - id: art-hearing-data-workshop
   section: art_sound
   year: 2019

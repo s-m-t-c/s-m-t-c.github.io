@@ -7,9 +7,14 @@ permalink: /works/
 {% assign works = site.data.projects | where: "section", "art_sound" | sort: "sort_date" | reverse %}
 <ol class="works-list">
   {% for entry in works %}
-    <li class="work-item" id="{{ entry.id }}">
+    <li class="work-item{% if entry.hover_image %} work-item--has-preview{% endif %}" id="{{ entry.id }}"{% if entry.hover_image %} tabindex="0"{% endif %}>
       <span class="work-year">{{ entry.year }}</span>
-      <p class="work-copy">{{ entry.content_html | default: entry.description }}</p>
+      <div class="work-copy">
+        <p>{{ entry.content_html | default: entry.description }}</p>
+        {% if entry.hover_image %}
+          <img class="work-preview" src="{{ entry.hover_image | relative_url }}" alt="{{ entry.hover_image_alt }}">
+        {% endif %}
+      </div>
     </li>
   {% endfor %}
 </ol>
