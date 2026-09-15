@@ -125,6 +125,8 @@
   sort_date: 2026-05-09
   featured: false
   featured_rank:
+  hover_image: /assets/media/signal-drift-lydgalleriet.png
+  hover_image_alt: Signal Drift sound installation at Lydgalleriet.
   content_html: >-
     <a href="https://www.lydgalleriet.no/archive/signal-drift-transmission-ice-and-the-sonics-of-movement" target="_blank"><span class="underline">Signal Drift</span></a>: Sonic cartographies of the Arctic. A sound installation developed and exhibited at Lydgalleriet with Diana Chester.
 
@@ -134,6 +136,8 @@
   sort_date: 2026-02-04
   featured: false
   featured_rank:
+  hover_image: /assets/media/bangkok-community-radio-lsf-big-data.jpg
+  hover_image_alt: L$F and BIG DATA at Bangkok Community Radio.
   content_html: >-
     <a href="https://www.youtube.com/watch?v=rV8IBKv5OGI" target="_blank"><span class="underline">L$F & BIG DATA presents 辣刨冰</span></a> - Bangkok Community Radio
 
@@ -143,6 +147,8 @@
   sort_date: 2025-12-01
   featured: false
   featured_rank:
+  hover_image: /assets/media/cryosonic-bek-samples-poster.png
+  hover_image_alt: BEK Samples presentation poster for CRYOSONIC.
   content_html: >-
     CRYOSONIC: Lecture performance on the sonic aesthetics and acoustic ecology of the frozen world for <a href="https://bek.no/en/bek-opening-week-bek-samples-with-sean-minhui-tashi-chua/" target="_blank"><span class="underline">Bergen Senter for Elektronisk Kunst</span></a>
 
