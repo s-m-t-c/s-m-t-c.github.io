@@ -9,6 +9,46 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+@font-face {
+  font-display: swap;
+  font-family: "Source Serif Web";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/source-serif-4-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Serif Web";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/source-serif-4-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Sans Web";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/source-sans-3-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Sans Web";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/source-sans-3-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Sans Web";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/source-sans-3-bold.woff2") format("woff2");
+}
+
 /**************/
 /* BASE RULES */
 /**************/
@@ -406,7 +446,7 @@ nav {
   transform: translateY(-0.2rem);
   transition: opacity 120ms ease, transform 120ms ease;
   visibility: hidden;
-  width: 640px;
+  width: var(--work-preview-width, 640px);
   z-index: 1;
 }
 
