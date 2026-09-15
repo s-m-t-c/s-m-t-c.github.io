@@ -18,3 +18,43 @@ permalink: /works/
     </li>
   {% endfor %}
 </ol>
+
+<script>
+  (() => {
+    const gap = 8;
+    const margin = 16;
+
+    function placePreview(item) {
+      const preview = item.querySelector('.work-preview');
+      if (!preview || !preview.naturalWidth) return;
+
+      const itemBounds = item.getBoundingClientRect();
+      const maxWidth = Math.min(640, window.innerWidth - (margin * 2));
+      const naturalRatio = preview.naturalHeight / preview.naturalWidth;
+      const preferredHeight = maxWidth * naturalRatio;
+      const spaceAbove = Math.max(0, itemBounds.top - gap - margin);
+      const spaceBelow = Math.max(0, window.innerHeight - itemBounds.bottom - gap - margin);
+      const showAbove = preferredHeight <= spaceAbove ||
+        (preferredHeight > spaceBelow && spaceAbove >= spaceBelow);
+      const availableHeight = showAbove ? spaceAbove : spaceBelow;
+      const scale = Math.min(maxWidth / preview.naturalWidth, availableHeight / preview.naturalHeight, 1);
+      const previewWidth = preview.naturalWidth * scale;
+      const previewHeight = preview.naturalHeight * scale;
+      const left = Math.max(margin, Math.min(itemBounds.left, window.innerWidth - previewWidth - margin));
+      const top = showAbove
+        ? itemBounds.top - gap - previewHeight
+        : itemBounds.bottom + gap;
+
+      preview.style.setProperty('--work-preview-left', `${left}px`);
+      preview.style.setProperty('--work-preview-top', `${top}px`);
+      preview.style.setProperty('--work-preview-max-height', `${availableHeight}px`);
+    }
+
+    document.querySelectorAll('.work-item--has-preview').forEach((item) => {
+      const preview = item.querySelector('.work-preview');
+      item.addEventListener('pointerenter', () => placePreview(item));
+      item.addEventListener('focusin', () => placePreview(item));
+      preview.addEventListener('load', () => placePreview(item));
+    });
+  })();
+</script>
