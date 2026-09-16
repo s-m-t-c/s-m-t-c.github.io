@@ -194,6 +194,8 @@
   sort_date: 2024-09-01
   featured: false
   featured_rank:
+  hover_image: /assets/media/sastrugi-rawspace-performance.jpg
+  hover_image_alt: Sastrugi performance at Rawspace, with a violinist before Antarctic sea-ice imagery.
   content_html: >-
     <a href="https://www.theatreroyal.com.au/shows/sastrugi-sounds-antarctic-sea-ice" target="_blank"><span class="underline">Sastrugi</span></a> - with Diana Chester and Bea Harrison-Day as part of Rawspace at the Theatre Royal and Museum for Old and New Art
 
